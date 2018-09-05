@@ -1,0 +1,150 @@
+/*Universal*/
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: black;
+    padding: 10px;
+}
+h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+h4 {
+    font-weight: bold;
+    background-color: black;
+    padding: 10px;
+}
+
+h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+a {
+    color: seashell;
+    text-decoration: none;
+}
+
+.main {
+    width: 1200px;
+    padding-top: 90px;
+    margin: 0px auto;
+}
+
+/*Header*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 69px;
+    position: fixed;
+    width: 100%;
+    padding: 10px 9px 10px 10px;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+}
+
+header img{
+    height: 50px;
+}
+
+
+nav a {
+    text-decoration: underline;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+/*Mission*/
+
+.mission {
+    background-image: url("../images/img-mission-background.jpg");
+    width: 1200px;
+    height: 700px;
+    text-align: center;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+/*Featured-tea of the month*/
+.featured-tea {
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 100px 50px 100px;
+}
+
+.tea-item {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    padding: 10px;
+}
+
+.tea-item img{
+    width: 300px;
+    height: 200px;
+}
+
+/*Locations*/
+.locations{
+    background-image: url("../images/img-locations-background.jpg");
+    width: 1200px;
+    height: 500px;
+}
+
+.locations h2 {
+    background-color: transparent;
+    padding: 50px 0px;
+}
+
+.locations-container {
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 100px 50px 100px;
+}
+
+.locations-items {
+    width: 300px;
+    height: 300px;
+    line-height: 4rem;
+    text-align: center;
+    opacity: 1;
+    background-color: black;
+    margin: 15px 20px;
+}
+
+/*Contact*/
+.contact{
+    height: 200px;
+    text-align: center;
+    line-height: 4rem;
+}
+
+/*Footer*/
+footer {
+    text-align: left;
+    padding-left: 20px;
+}
+
